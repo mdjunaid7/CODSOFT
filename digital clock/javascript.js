@@ -40,5 +40,5 @@ function updateClock()
 function initClock()
 {
     updateClock();
-    window.setInterval("updateClock", 1000); // Changed the interval to 1000 milliseconds (1 second)
+    window.setInterval("updateClock()", 1); // Changed the interval to 1000 milliseconds (1 second)
 }
